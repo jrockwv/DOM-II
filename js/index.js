@@ -70,13 +70,12 @@ busImage.addEventListener('click', () => {
    title.addEventListener('wheel', titleEventHandler)
  })
 
-//  const changeImg3 = document.querySelector('.content-destination img')
-//  changeImg3.addEventListener('keypress', (event) => {
-//    changeImg3.src = "img/fun.jpg"
-// })
+ const changeImg3 = document.querySelector('.content-destination img')
+ changeImg3.addEventListener('keypress', (event) => {
+   changeImg3.src = "img/fun.jpg"
+})
 
 window.addEventListener('resize', () => {
-   // find element on the dom, and update image to be something new! 
    const destImg = document.querySelector('.content-destination img')
    destImg.src = "img/fun.jpg"
  })
